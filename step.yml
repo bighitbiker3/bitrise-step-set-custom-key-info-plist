@@ -71,14 +71,14 @@ inputs:
       description: |
         Path to the given iOS project's Info.plist file.
       is_required: true
-  - custom_field:
+  - custom_key:
     opts:
       title: "Key to set"
       summary: "Set the :CFBundleIdentifier to a specified value. Should be string."
       description: |
         Bundle Identifier e.g.: com.yourcompany.$(PRODUCT_NAME:rfc1034identifier) Read more: https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html
       is_required: true
-  - custom_field_value:
+  - custom_key_value:
     opts:
       title: "Value to set for above key"
       summary: "Set the :CFBundleIdentifier to a specified value. Should be string."
